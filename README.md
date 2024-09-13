@@ -1,7 +1,7 @@
 **Hi, I'm Joan Chepngetich**
 
 Backend Software Developer | Web Developer | Android Developer
-Welcome to my GitHub profile! I specialize in building efficient, scalable, and user-friendly applications. My passion for technology drives me to continuously learn and develop innovative solutions for complex problems.
+Welcome to my GitHub profile! I specialize in building efficient, scalable and user-friendly applications. My passion for technology drives me to continuously learn and develop innovative solutions for complex problems.
 
 **🚀 Skills**
 Programming Languages: Java, JavaScript, TypeScript, HTML, CSS, C++, C#
@@ -31,8 +31,8 @@ Advanced Android App Development
 CI/CD Pipelines with Jenkins
 
 **📫 Get in Touch**
-Email: joanchepngetich01@gmail.com
-LinkedIn: Joan Chepngetich
+Email: joangarnet82@gmail.com
+LinkedIn: [Joan Chepngetich](https://www.linkedin.com/in/joan-chepngetich-47b0ba213/)
 
 **🔗 Quick Links**
 Portfolio
