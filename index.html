@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Personal Portfolio</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/2fbbdcc420.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="Images/Logo.jpeg" class="Logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#languages">Languages</a></li>
+                        <li><a href="#interests">Interests</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-sharp fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-solid fa-bars" onclick="openmenu"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Software Engineer</p>
+                    <h1>Hello, I'm <span>Joan</span> <br> Chepngetich from Kenya</h1>
+                </div>
+            </div>
+        </div>
+        <!-- -------------about------------- -->
+        <div id="about">
+        <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="Images/My image.jpg">
+        </div>
+        <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>Architect, develop and sustain robust server-side components
+                 for web applications as a backend software developer. Specialize in
+                   optimizing application logic, managing databases and designing seamless application
+             programming interfaces (APIs) to enhance overall application performance and functionality.</p>
+
+             <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+             </div>
+             
+             <div class="tab-contents active-tab" id="skills">
+                <ul>
+                    <li><span>Software Engineer</span><br>design and develop softwares </li>
+                    <li><span>Web developer</span><br>Design Websites</li>
+                    <li><span>App developer</span><br>Build Android Applications</li>
+                </ul>
+             </div>
+             <div class="tab-contents" id="experience">
+                <ul>
+                    <li><span>2024 Jan- current</span><br>Apprentice Backend Software Engineer at E&M Technologies</li>
+                    <li><span>2021 June- 2021 September</span><br>Data Clerk Entry at Equity Center</li>
+                </ul>
+             </div>
+
+             <div class="tab-contents" id="education">
+                <ul>
+                    <li><span>2017-2021</span><br>Bachelor Of Business Information Technology at KCA University </li>
+                    <li><span>2017 May-2017 August</span><br>Automobile Engineering at Olesso's Technical Training Institute</li>
+                    <li><span>2013-2016</span><br>Moi Siongiroi Girl's</li>
+                </ul>
+             </div>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- ----------------languages----------------- -->
+<div id="languages">
+    <div class="container">
+        <h2 class="sub-title">Programming Languages</h2>
+        <div class="languages-list">
+        <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>SQL</li>
+            <li>HTML & CSS</li>
+        </ul>
+      </div>
+    </div>
+</div>
+<!-- --------------interests---------------- -->
+ <div id="interests">
+   <div class="container">
+    <h1 class="sub-title">My Interests</h1>
+    <div class="interests-list">
+        <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Software Engineering</h2>
+            <p>Architect, develop and sustain robust server-side 
+                components for web applications as a software developer. 
+                Specialize in optimizing application logic, managing databases and designing
+                 seamless application programming interfaces (APIs) to enhance overall application performance
+                  and functionality.</p>
+                  <a href="https://www.freecodecamp.org/">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-solid fa-web-awesome"></i>
+            <h2>Web Development</h2>
+            <p>Building and designing responsive, user-friendly websites and web applications. 
+                Handle both the frontend and backend development of websites, ensuring that the design and functionality work seamlessly together</p>
+                  <a href="https://developer.mozilla.org/en-US/">Learn more</a>
+        </div>
+
+        <div>
+            <i class="fa-brands fa-android"></i>
+            <h2>Android Development</h2>
+            <p>Creating native mobile applications specifically for Android devices. Using languages
+                 like Java and Kotlin, developing apps that cater to a wide range of business and user needs,
+                  ensuring they are responsive, user-friendly and visually appealing</p>
+                  <a href="https://developer.android.com/courses">Learn more</a>
+        </div>
+    </div>
+   </div>
+</div>
+
+<!-- ---------------projects------------------ -->
+ <div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="Images/litigation.jpeg">
+                <div class="layer">
+                    <h3>Litigation Project</h3>
+                    <p> Specialized software solution designed to manage the legal
+                         processes involved in pursuing legal actions against borrowers who have 
+                         defaulted on their loans. It helps financial institutions, legal teams or law firms
+                          streamline and automate various aspects of loan default cases, from identifying defaults to
+                           managing the litigation process.</p>
+                           <a href="https://github.com/EMTECH-ELP/Litigation_System_V1"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="Images/telemedicine.jpeg">
+                <div class="layer">
+                    <h3>Telemedicine Website</h3>
+                    <p> An online platform that enables patients to consult with healthcare
+                         professionals remotely, using digital communication technologies like video calls,
+                          messaging or chatting.</p>
+                           <a href="https://github.com/PLP-WebTechnologies/advanced-css-joanchepngetich"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+
+            <div class="project">
+                <img src="Images/authentication.jpeg">
+                <div class="layer">
+                    <h3>Authentication and Autorization</h3>
+                    <p> Authentication is the process of verifying the identity of a user or system.
+                          "Who are you?" by ensuring that users or systems
+                          are who they claim to be before granting them access to the system.Authorization is the process of 
+                          determining what actions or resources a user is allowed to access after they have been authenticated.
+                            "What can you do?".</p>
+                           <a href="https://github.com/joanchepngetich/AuthenticationBackend" class="btn"><i class="fa-solid fa-link"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#">See more</a>
+    </div>
+ </div>
+ <!-- -------------contact----------------- -->
+  <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>joangarnet82@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+254720960422</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                </div>
+                <a href="Images/JOAN RESUME.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right"></div>
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright &copy; Joan. All rights reserved.<i class="fa-solid fa-heart"></i></p>
+    </div>
+  </div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwSx89Eo2SlyGs01p6eWrM0bDkxohtOMXAzaQ7IfHgqk27CSKHGJM3W4sKcEw3Uf3g1/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message submitted successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+    </body>
+</html>
